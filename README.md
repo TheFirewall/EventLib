@@ -39,7 +39,11 @@ EventListener el = new EventListener();
 //OR
 EventListener el = new EventListener(em);
 
-
+ConsoleEvent e = new ConsoleEvent("test");
+if (e.OnCallEvent(this)){// calling OnConsole in EventListener
+    //true is cancelled
+    Console.WriteLine("");
+}
 
 
 ```
