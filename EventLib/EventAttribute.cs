@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EventLib
+namespace NetCoreEvent
 {
     [AttributeUsage(AttributeTargets.Method, Inherited = true, AllowMultiple = true)]
     public class EventAttribute : Attribute

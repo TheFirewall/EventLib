@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace EventLib
+namespace NetCoreEvent
 {
 
     public abstract class MainEventArgs : EventArgs, ICancellable

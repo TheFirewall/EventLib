@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Reflection;
 
-
-namespace EventLib
+namespace NetCoreEvent
 {
     public class EventManager : IEventManager
     {
-         public void LoadListener<T>(T evt)
+        public void LoadListener<T>(T evt)
         {
             LoadEvents(evt.GetType(), evt);
         }

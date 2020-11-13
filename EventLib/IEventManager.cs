@@ -1,5 +1,5 @@
 ﻿using System;
-namespace EventLib
+namespace NetCoreEvent
 {
     public interface IEventManager
     {

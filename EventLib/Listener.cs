@@ -1,8 +1,8 @@
-﻿namespace EventLib
+﻿namespace NetCoreEvent
 {
     public interface Listener
     {
-        void AddThisListener(EventManager manager)
+        void AddThisListener(IEventManager manager)
         {
             manager.LoadEvents(this.GetType(), this);
         }
